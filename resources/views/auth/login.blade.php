@@ -68,11 +68,9 @@
                 </div>
             </div> -->
             <div class="card mt-4">
-                <div class="view view-cascade gradient-card-header blue-gradient narrower py-4 mx-4 d-flex z-depth-3 justify-content-between align-items-center rounded text-center"
-                    style="margin-top:-25px;">
-                    <h2 class="text-center"><a href="#" class="white-text mx-3 text-center">Login</a></h2>
-                </div>
                
+
+                <h1 class="text-center" style="padding-top:5px">Login</h1>
                 <form class="text-center border border-light p-5" method="POST" action="{{ route('login') }}">
                   @csrf
                     <input id="email" type="email" class="form-control mb-4  @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus placeholder="E-mail">
@@ -98,21 +96,14 @@
                                 <label class="custom-control-label" for="defaultLoginFormRemember">Remember me</label>
                             </div>
                         </div>
-                        <div>
-                        
-                            <a href="">Forgot password?</a>
-                        </div>
+                
                     </div>
 
                
-                    <button class="btn btn-info btn-block my-4" type="submit">Sign in</button>
+                    <button class="btn btn-danger btn-block my-4" type="submit">Sign in</button>
 
                    
-                    <p>Not a member?
-                        <a href="">Register</a>
-                    </p>
-
-
+        
                 </form>
               
             </div>

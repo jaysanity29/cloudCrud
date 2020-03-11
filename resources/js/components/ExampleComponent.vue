@@ -3,14 +3,11 @@
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card card-cascade narrower mt-3">
-                    <!-- <div class="card-header">Admin Dashboard</div> -->
-                    <div class="view view-cascade gradient-card-header blue-gradient narrower py-3 mx-4 d-flex z-depth-3 justify-content-between align-items-center rounded"
-                        style="margin-top:-25px;">
-                        <a href="" class="white-text mx-3 text-center">Users Table</a>
-                    </div>
+                  
+                    
                     <div class="card-body">
-                        <button class="btn btn-success" @click="showUserModal()">Add new User</button>
-                        <!-- <button class="btn btn-success" @click="discount = true">Add new User</button> -->
+                       
+                        <h3>List of Users</h3>
                         <table class="table">
                             <thead>
                                 <th>ID</th>
@@ -31,7 +28,9 @@
                                 </tr>
                             </tbody>
                         </table>
+                         <button class="btn btn-primary" style="float:right" @click="showUserModal()">Add new User</button>
                     </div>
+                    
                 </div>
             </div>
         </div>
@@ -72,7 +71,7 @@
                         </form>
                     </div>
                     <div class="modal-footer">
-                        <button v-if="ifupdate == false" @click="submitNewUser()" type="button" class="btn btn-primary">Save changes</button>
+                        <button v-if="ifupdate == false" @click="submitNewUser()" type="button" class="btn btn-primary">Add</button>
                         <button v-if="ifupdate == true" @click="submitUpdateModal()" type="button" class="btn btn-primary">Update Changes</button>
                     </div>
                 </div>

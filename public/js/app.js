@@ -1979,7 +1979,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
@@ -41349,24 +41348,11 @@ var render = function() {
       _c("div", { staticClass: "row justify-content-center" }, [
         _c("div", { staticClass: "col-md-8" }, [
           _c("div", { staticClass: "card card-cascade narrower mt-3" }, [
-            _vm._m(0),
-            _vm._v(" "),
             _c("div", { staticClass: "card-body" }, [
-              _c(
-                "button",
-                {
-                  staticClass: "btn btn-success",
-                  on: {
-                    click: function($event) {
-                      return _vm.showUserModal()
-                    }
-                  }
-                },
-                [_vm._v("Add new User")]
-              ),
+              _c("h3", [_vm._v("List of Users")]),
               _vm._v(" "),
               _c("table", { staticClass: "table" }, [
-                _vm._m(1),
+                _vm._m(0),
                 _vm._v(" "),
                 _c(
                   "tbody",
@@ -41422,7 +41408,21 @@ var render = function() {
                   }),
                   0
                 )
-              ])
+              ]),
+              _vm._v(" "),
+              _c(
+                "button",
+                {
+                  staticClass: "btn btn-primary",
+                  staticStyle: { float: "right" },
+                  on: {
+                    click: function($event) {
+                      return _vm.showUserModal()
+                    }
+                  }
+                },
+                [_vm._v("Add new User")]
+              )
             ])
           ])
         ])
@@ -41469,7 +41469,7 @@ var render = function() {
                       )
                     : _vm._e(),
                   _vm._v(" "),
-                  _vm._m(2)
+                  _vm._m(1)
                 ]),
                 _vm._v(" "),
                 _c("div", { staticClass: "modal-body" }, [
@@ -41683,7 +41683,7 @@ var render = function() {
                             }
                           }
                         },
-                        [_vm._v("Save changes")]
+                        [_vm._v("Add")]
                       )
                     : _vm._e(),
                   _vm._v(" "),
@@ -41806,26 +41806,6 @@ var render = function() {
   )
 }
 var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      {
-        staticClass:
-          "view view-cascade gradient-card-header blue-gradient narrower py-3 mx-4 d-flex z-depth-3 justify-content-between align-items-center rounded",
-        staticStyle: { "margin-top": "-25px" }
-      },
-      [
-        _c(
-          "a",
-          { staticClass: "white-text mx-3 text-center", attrs: { href: "" } },
-          [_vm._v("Users Table")]
-        )
-      ]
-    )
-  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
@@ -57061,8 +57041,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\Israel\crud\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\Israel\crud\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! F:\subang\laravel-training-master\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! F:\subang\laravel-training-master\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
